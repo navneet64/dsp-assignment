@@ -6,8 +6,6 @@ Created on Mon Oct 28 14:25:20 2018
 """
 
 import numpy as np
-#import pandas as pd
-#import cmath
 import math
 import random
 import matplotlib.pyplot as plt
