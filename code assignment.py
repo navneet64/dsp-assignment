@@ -149,4 +149,5 @@ for i in range(N):
 plt.plot(e_dct,'g')
 plt.plot(e_dft, 'r')
 plt.plot(e_haar,'b')
+plt.legend(['DCT', 'DFT', 'HARR'], loc='upper left')
 plt.show()
