@@ -13,7 +13,7 @@ import random
 import matplotlib.pyplot as plt
 
 def dct(x,N):
-    #W = complex(math.cos(2*math.pi/2*N), -math.sin(2*math.pi/2*N))
+   
     Z = [0]*(N)
     for k in range(N):
         for i in range(N):
@@ -22,8 +22,7 @@ def dct(x,N):
 
 def idct(x,N):
 #    print(x)
-    #W = complex(math.cos(2*math.pi/2*N), -math.sin(2*math.pi/2*N))
-    Z = [0]*(N)
+    
     for n in range(N):
         for k in range(N):
             if(k == 0):
